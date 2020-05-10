@@ -45,9 +45,11 @@ def carteian_to_polar(x, y):
     return distance, angle
 
 
-
 def distance_bettewen_two_points(x1, y1, x2, y2):
     x_dif = x1 - x2
     y_dif = y1 - y2
     return math.sqrt(x_dif * x_dif + y_dif * y_dif)
 
+
+def print_mid_point(x1, y1, x2, y2, x3, y3):
+    pass
